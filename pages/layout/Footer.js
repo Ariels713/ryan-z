@@ -7,7 +7,7 @@ export default function Footer() {
         Footer
       </h2>
       <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-        <div class="border-t border-gray-200 pt-8 lg:flex lg:items-center lg:justify-between xl:mt-0">
+        {/* <div class="border-t border-gray-200 pt-8 lg:flex lg:items-center lg:justify-between xl:mt-0">
           <div>
             <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">
               Subscribe to our newsletter
@@ -39,7 +39,7 @@ export default function Footer() {
               </button>
             </div>
           </form>
-        </div>
+        </div> */}
         <div class="mt-8 border-t border-gray-200 pt-8 md:flex md:items-center md:justify-between">
           <div class="flex space-x-6 md:order-2">
             <a href="#" class="text-gray-400 hover:text-gray-500">

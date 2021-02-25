@@ -57,14 +57,16 @@ export default function Nav() {
             </Link>
           </li>
           <li>
-            <a
-              href="/"
-              aria-label="Sign in"
-              title="Sign in"
-              class="font-medium tracking-wide text-gray-700 dark:text-gray-200 transition-colors duration-200 hover:text-deep-purple-accent-400"
-            >
-              Contact
-            </a>
+            <Link href="/contact">
+              <a
+                href="/"
+                aria-label="Sign in"
+                title="Sign in"
+                class="font-medium tracking-wide text-gray-700 dark:text-gray-200 transition-colors duration-200 hover:text-deep-purple-accent-400"
+              >
+                Contact
+              </a>
+            </Link>
           </li>
           <li>
             <ToggleSwitch />
@@ -164,14 +166,16 @@ export default function Nav() {
                       </Link>
                     </li>
                     <li>
-                      <a
-                        href="/"
-                        aria-label="Sign in"
-                        title="Sign in"
-                        class="font-medium tracking-wide text-gray-700 dark:text-gray-200 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                      >
-                        Contact
-                      </a>
+                      <Link href="/contact">
+                        <a
+                          href="/"
+                          aria-label="Sign in"
+                          title="Sign in"
+                          class="font-medium tracking-wide text-gray-700 dark:text-gray-200 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        >
+                          Contact
+                        </a>
+                      </Link>
                     </li>
                     <li>
                       <ToggleSwitch />
