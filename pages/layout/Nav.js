@@ -22,17 +22,17 @@ export default function Nav() {
             </Link>
           </li>
           <li>
-            <Link href="/featured">
+            <Link href="/recentSales">
               <a
                 aria-label="Our product"
                 title="Our product"
                 class="font-medium tracking-wide text-gray-700 dark:text-gray-200 transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
-                Featured Properties
+                Recent Sales
               </a>
             </Link>
           </li>
-          <li>
+          {/* <li>
             <a
               href="/"
               aria-label="Product pricing"
@@ -41,7 +41,7 @@ export default function Nav() {
             >
               Sell
             </a>
-          </li>
+          </li> */}
         </ul>
         <a
           href="/"

@@ -29,14 +29,7 @@ export default function Testimonials() {
               </div>
               <footer class="mt-8">
                 <div class="flex items-start">
-                  <div class="flex-shrink-0 inline-flex rounded-full border-2 border-white">
-                    <img
-                      class="h-12 w-12 rounded-full"
-                      src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixqx=C1Z00RHw0F&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                      alt=""
-                    />
-                  </div>
-                  <div class="ml-4">
+                  <div>
                     <div class="text-base font-medium text-gray-600">
                       Lauren Chil
                     </div>
@@ -66,14 +59,7 @@ export default function Testimonials() {
               </div>
               <footer class="mt-8">
                 <div class="flex items-start">
-                  <div class="flex-shrink-0 inline-flex rounded-full border-2 border-white">
-                    <img
-                      class="h-12 w-12 rounded-full"
-                      src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixqx=C1Z00RHw0F&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                      alt=""
-                    />
-                  </div>
-                  <div class="ml-4">
+                  <div class="">
                     <div class="text-base font-medium text-gray-600">
                       Ariel Rodriguez
                     </div>

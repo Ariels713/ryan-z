@@ -5,7 +5,7 @@ export default function LandingHero() {
     <>
       <div className="bg-indigo-900 relative overflow-hidden h-screen">
         <img
-          src="/images/heroImage.jpg"
+          src="/images/heroImage2.jpg"
           className="absolute h-full w-full object-cover"
         />
         <div className="inset-0 bg-black opacity-25 absolute"></div>
