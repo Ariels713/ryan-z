@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Link from "next/link";
 import ToggleSwitch from "../../components/theme/Toggle";
 
 export default function Nav() {
@@ -9,24 +10,27 @@ export default function Nav() {
       <div class="relative flex grid items-center grid-cols-2 lg:grid-cols-3">
         <ul class="flex items-center hidden space-x-8 lg:flex">
           <li>
-            <a
-              href="/"
-              aria-label="Our product"
-              title="Our product"
-              class="font-medium tracking-wide text-gray-700 dark:text-gray-200 transition-colors duration-200 hover:text-deep-purple-accent-400"
-            >
-              Home
-            </a>
+            <Link href="/">
+              <a
+                href="/"
+                aria-label="Our product"
+                title="Our product"
+                class="font-medium tracking-wide text-gray-700 dark:text-gray-200 transition-colors duration-200 hover:text-deep-purple-accent-400"
+              >
+                Home
+              </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="/"
-              aria-label="Our product"
-              title="Our product"
-              class="font-medium tracking-wide text-gray-700 dark:text-gray-200 transition-colors duration-200 hover:text-deep-purple-accent-400"
-            >
-              Featured Properties
-            </a>
+            <Link href="/featured">
+              <a
+                aria-label="Our product"
+                title="Our product"
+                class="font-medium tracking-wide text-gray-700 dark:text-gray-200 transition-colors duration-200 hover:text-deep-purple-accent-400"
+              >
+                Featured Properties
+              </a>
+            </Link>
           </li>
           <li>
             <a
