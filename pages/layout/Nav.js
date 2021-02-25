@@ -32,16 +32,6 @@ export default function Nav() {
               </a>
             </Link>
           </li>
-          {/* <li>
-            <a
-              href="/"
-              aria-label="Product pricing"
-              title="Product pricing"
-              class="font-medium tracking-wide text-gray-700 dark:text-gray-200 transition-colors duration-200 hover:text-deep-purple-accent-400"
-            >
-              Sell
-            </a>
-          </li> */}
         </ul>
         <a
           href="/"
@@ -55,14 +45,16 @@ export default function Nav() {
         </a>
         <ul class="flex items-center hidden ml-auto space-x-8 lg:flex">
           <li>
-            <a
-              href="/"
-              aria-label="Sign in"
-              title="Sign in"
-              class="font-medium tracking-wide text-gray-700 dark:text-gray-200 transition-colors duration-200 hover:text-deep-purple-accent-400"
-            >
-              Contact
-            </a>
+            <Link href="/about">
+              <a
+                href="/"
+                aria-label="Sign in"
+                title="Sign in"
+                class="font-medium tracking-wide text-gray-700 dark:text-gray-200 transition-colors duration-200 hover:text-deep-purple-accent-400"
+              >
+                About
+              </a>
+            </Link>
           </li>
           <li>
             <a
@@ -71,7 +63,7 @@ export default function Nav() {
               title="Sign in"
               class="font-medium tracking-wide text-gray-700 dark:text-gray-200 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
-              About
+              Contact
             </a>
           </li>
           <li>
@@ -135,44 +127,41 @@ export default function Nav() {
                 <nav>
                   <ul class="space-y-4">
                     <li>
-                      <a
-                        href="/"
-                        aria-label="Our product"
-                        title="Our product"
-                        class="font-medium tracking-wide text-gray-700 dark:text-gray-200 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                      >
-                        Home
-                      </a>
+                      <Link href="/">
+                        <a
+                          href="/"
+                          aria-label="Our product"
+                          title="Our product"
+                          class="font-medium tracking-wide text-gray-700 dark:text-gray-200 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        >
+                          Home
+                        </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="/"
-                        aria-label="Our product"
-                        title="Our product"
-                        class="font-medium tracking-wide text-gray-700 dark:text-gray-200 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                      >
-                        Featured Properties
-                      </a>
+                      <Link href="/recentSales">
+                        <a
+                          href="/"
+                          aria-label="Our product"
+                          title="Our product"
+                          class="font-medium tracking-wide text-gray-700 dark:text-gray-200 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        >
+                          Recent Sales
+                        </a>
+                      </Link>
                     </li>
+
                     <li>
-                      <a
-                        href="/"
-                        aria-label="Product pricing"
-                        title="Product pricing"
-                        class="font-medium tracking-wide text-gray-700 dark:text-gray-200 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                      >
-                        Sell
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="/"
-                        aria-label="Sign in"
-                        title="Sign in"
-                        class="font-medium tracking-wide text-gray-700 dark:text-gray-200 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                      >
-                        About
-                      </a>
+                      <Link href="about">
+                        <a
+                          href="/"
+                          aria-label="Sign in"
+                          title="Sign in"
+                          class="font-medium tracking-wide text-gray-700 dark:text-gray-200 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        >
+                          About
+                        </a>
+                      </Link>
                     </li>
                     <li>
                       <a
