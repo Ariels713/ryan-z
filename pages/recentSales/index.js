@@ -1,7 +1,49 @@
 import React from "react";
 import Card from "../../components/Card";
 
-export default function index() {
+import { GraphQLClient } from "graphql-request";
+
+export async function getStaticProps() {
+  const graphcms = new GraphQLClient(
+    `${process.env.NEXT_PUBLIC_GRAPH_CMS_URL}`
+  );
+
+  const { recentSales } = await graphcms.request(
+    `
+    {
+      recentSales {
+        id
+        slug
+        title
+        beds
+        baths
+        description
+        salePrice
+        date
+        cardImage{
+         url
+        }
+        url
+      }
+    }
+    `
+  );
+
+  if (!recentSales) {
+    return {
+      notFound: true,
+    };
+  }
+
+  return {
+    props: {
+      recentSales,
+    },
+    revalidate: 1,
+  };
+}
+
+export default function index({ recentSales }) {
   return (
     <>
       <div>
@@ -14,7 +56,7 @@ export default function index() {
           <div className="absolute inset-0 bg-gray-400 bg-opacity-25" />
         </div>
       </div>
-      <Card />
+      <Card recentSales={recentSales} />
     </>
   );
 }
