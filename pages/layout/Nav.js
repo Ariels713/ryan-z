@@ -95,7 +95,7 @@ export default function Nav() {
             </svg>
           </button>
           {isMenuOpen && (
-            <div class="absolute top-0 left-0 w-full">
+            <div class="z-9999 absolute top-0 left-0 w-full">
               <div class="p-5 bg-white border rounded shadow-sm dark:bg-gray-900">
                 <div class="flex items-center justify-between mb-4">
                   <div>
