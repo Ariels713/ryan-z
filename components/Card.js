@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from "next/link";
 export default function Card({ recentSales }) {
   return (
     <>
@@ -38,46 +38,50 @@ export default function Card({ recentSales }) {
                   class="flex flex-col rounded-lg shadow-lg overflow-hidden"
                 >
                   <div class="flex-shrink-0">
-                    <img
-                      class="h-96 w-full object-cover"
-                      src={cardImage.url}
-                      alt={title}
-                    />
+                    <Link href={url}>
+                      <img
+                        class="h-96 w-full object-cover"
+                        src={cardImage.url}
+                        alt={title}
+                      />
+                    </Link>
                   </div>
-                  <div class="flex-1 bg-white p-6 flex flex-col justify-between">
-                    <div class="flex-1">
-                      <p class="text-sm font-medium text-green-600">
-                        <a href="#" class="hover:underline">
-                          Sold
-                        </a>
-                      </p>
-                      <a href="#" class="block mt-2">
-                        <p class="text-xl font-semibold text-gray-900">
-                          {title}
-                        </p>
-                        <div class="text-gray-600 text-xs uppercase font-semibold tracking-wide">
-                          <p>
-                            {beds} beds &bull; {baths} baths
-                          </p>
-                        </div>
-                        <p class="mt-3 text-base text-gray-500">
-                          {description}
-                        </p>
-                      </a>
-                    </div>
-                    <div class=" flex items-center">
-                      <div className="mt-4">
+                  <Link href={url}>
+                    <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+                      <div class="flex-1">
                         <p class="text-sm font-medium text-green-600">
                           <a href="#" class="hover:underline">
-                            ${salePrice}
+                            Sold
                           </a>
                         </p>
-                        <div class="flex space-x-1 text-sm text-gray-500">
-                          <time dateTime="2020-03-16">{date}</time>
+                        <a href="#" class="block mt-2">
+                          <p class="text-xl font-semibold text-gray-900">
+                            {title}
+                          </p>
+                          <div class="text-gray-600 text-xs uppercase font-semibold tracking-wide">
+                            <p>
+                              {beds} beds &bull; {baths} baths
+                            </p>
+                          </div>
+                          <p class="mt-3 text-base text-gray-500">
+                            {description}
+                          </p>
+                        </a>
+                      </div>
+                      <div class=" flex items-center">
+                        <div className="mt-4">
+                          <p class="text-sm font-medium text-green-600">
+                            <a href="#" class="hover:underline">
+                              ${salePrice}
+                            </a>
+                          </p>
+                          <div class="flex space-x-1 text-sm text-gray-500">
+                            <time dateTime="2020-03-16">{date}</time>
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </Link>
                 </div>
               );
             })}
