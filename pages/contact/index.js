@@ -28,7 +28,7 @@ export default function index() {
                   <span className="text-teal-accent-400">I can help.</span>
                 </h2>
                 <p className="max-w-xl mb-4 text-base text-gray-200 md:text-lg">
-                  If you prefer to call, I'm feel free to give me a call.
+                  If you prefer to call, feel free to give me a call.
                 </p>
 
                 <p className="max-w-xl mb-4 text-base text-gray-200 md:text-lg font-semibold ">
@@ -52,7 +52,7 @@ export default function index() {
                         Name
                       </label>
                       <input
-                        placeholder="George Clooney"
+                        placeholder="David Beckham"
                         rules="required"
                         type="text"
                         className="flex-grow w-full h-12 px-4 mb-2 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline text-gray-900"
@@ -70,7 +70,7 @@ export default function index() {
                         Email
                       </label>
                       <input
-                        placeholder="gc@clooney.com"
+                        placeholder="DBeckham@email.com"
                         rules="required"
                         type="text"
                         className="flex-grow w-full h-12 px-4 mb-2 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline text-gray-900"

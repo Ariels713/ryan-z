@@ -13,7 +13,7 @@ export async function getStaticProps() {
     {
       recentSales {
         id
-        slug
+
         title
         beds
         baths

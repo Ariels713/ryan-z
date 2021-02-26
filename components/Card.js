@@ -1,5 +1,5 @@
 import React from "react";
-import Link from "next/link";
+
 export default function Card({ recentSales }) {
   return (
     <>
@@ -14,8 +14,7 @@ export default function Card({ recentSales }) {
             </h2>
 
             <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 dark:text-gray-300 sm:mt-4">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa
-              libero labore natus atque, ducimus sed.
+              Love where you live, now more than ever!
             </p>
           </div>
           <div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
@@ -32,13 +31,14 @@ export default function Card({ recentSales }) {
                 title,
                 url,
               } = item;
+              console.log("url", url);
               return (
                 <div
                   key={id}
                   class="flex flex-col rounded-lg shadow-lg overflow-hidden"
                 >
                   <div class="flex-shrink-0">
-                    <a href={url} target="_blank">
+                    <a href="www.google.com" target="_blank">
                       <img
                         class="h-96 w-full object-cover"
                         src={cardImage.url}
@@ -47,7 +47,7 @@ export default function Card({ recentSales }) {
                     </a>
                   </div>
 
-                  <a href={url} target="_blank">
+                  <a href="https://www.zillow.com/" target="_blank">
                     <div class="flex-1 bg-white p-6 flex flex-col justify-between">
                       <div class="flex-1">
                         <p class="text-sm font-medium text-green-600">

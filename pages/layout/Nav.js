@@ -60,6 +60,19 @@ export default function Nav() {
               </a>
             </Link>
           </li>
+
+          <li>
+            <Link href="/about">
+              <a
+                href="/"
+                aria-label="Sign in"
+                title="Sign in"
+                className="font-medium tracking-wide text-gray-700 dark:text-gray-200 transition-colors duration-200 hover:text-deep-purple-accent-400"
+              >
+                Testimonials
+              </a>
+            </Link>
+          </li>
           <li>
             <Link href="/contact">
               <a
