@@ -1,7 +1,7 @@
 import React from "react";
 import { ThemeContext } from "./themeContext";
 
-export default function Dark(props) {
+export default function Light(props) {
   const { theme, setTheme } = React.useContext(ThemeContext);
 
   const title = props.title || "light";
@@ -17,11 +17,11 @@ export default function Dark(props) {
       <title>{title}</title>
       <g>
         <path
-          d="M7 5.5h10c3.58 0 6.5 2.92 6.5 6.5s-2.92 6.5-6.5 6.5h-10c-3.58 0-6.5-2.91-6.5-6.5s2.92-6.5 6.5-6.5z"
-          fill="#374151"
+          d="M17 18.5h-10c-3.58 0-6.5-2.92-6.5-6.5s2.92-6.5 6.5-6.5h10c3.58 0 6.5 2.92 6.5 6.5s-2.92 6.5-6.5 6.5z"
+          fill="#f2e35d"
         />
         <path
-          d="M17 8.5c1.93 0 3.5 1.57 3.5 3.5s-1.57 3.5-3.5 3.5-3.5-1.57-3.5-3.5 1.57-3.5 3.5-3.5z"
+          d="M7 15.5c-1.93 0-3.5-1.57-3.5-3.5s1.57-3.5 3.5-3.5 3.5 1.57 3.5 3.5-1.57 3.5-3.5 3.5z"
           fill="#FFFFFF"
         />
       </g>
