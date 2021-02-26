@@ -154,7 +154,7 @@ export default function Nav() {
                     </li>
 
                     <li>
-                      <Link href="about">
+                      <Link href="/about">
                         <a
                           href="/"
                           aria-label="Sign in"
