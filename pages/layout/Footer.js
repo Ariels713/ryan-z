@@ -2,7 +2,10 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer className="bg-white" aria-labelledby="footerHeading">
+    <footer
+      className="bg-white dark:bg-gray-900"
+      aria-labelledby="footerHeading"
+    >
       <h2 id="footerHeading" className="sr-only">
         Footer
       </h2>
@@ -45,7 +48,7 @@ export default function Footer() {
             <a
               href="https://m.facebook.com/RyanZRealty/?ref=bookmarks"
               target="_blank"
-              className="text-gray-400 hover:text-gray-500"
+              className="text-gray-400 hover:text-gray-500 dark:text-gray-300"
             >
               <span className="sr-only">Facebook</span>
               <svg
@@ -65,7 +68,7 @@ export default function Footer() {
             <a
               href="https://www.instagram.com/ryan_zarb/?hl=en"
               target="_blank"
-              className="text-gray-400 hover:text-gray-500"
+              className="text-gray-400 hover:text-gray-500 dark:text-gray-300"
             >
               <span className="sr-only">Instagram</span>
               <svg
@@ -82,7 +85,7 @@ export default function Footer() {
               </svg>
             </a>
           </div>
-          <p className="mt-8 text-base text-gray-400 md:mt-0 md:order-1">
+          <p className="mt-8 text-base text-gray-400 dark:text-gray-200 md:mt-0 md:order-1">
             Ryan Zarb Realty Inc.
           </p>
         </div>

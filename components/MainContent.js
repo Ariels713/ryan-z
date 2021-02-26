@@ -3,12 +3,12 @@ import React from "react";
 export default function MainContent() {
   return (
     <div>
-      <div className="relative bg-white py-16 sm:py-24 lg:py-32">
+      <div className="relative bg-white dark:bg-gray-800 py-16 sm:py-24 lg:py-32">
         <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
-          <p className="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl title">
+          <p className="mt-2 text-3xl font-extrabold text-gray-900 dark:text-gray-100 tracking-tight sm:text-4xl title">
             Your Dream Home Awaits{" "}
           </p>
-          <p className="mt-5 max-w-prose mx-auto text-xl text-gray-500">
+          <p className="mt-5 max-w-prose mx-auto text-xl text-gray-500 dark:text-gray-200">
             As a realtor, I aim to find the right home at the right price for
             you. I have lived in North Bergen for over five years and plan on
             staying for much longer. Let's find your dream home together.
@@ -57,17 +57,17 @@ export default function MainContent() {
                         </svg>{" "}
                       </span>
                     </div>
-                    <h3 className="mt-2 text-lg font-medium text-gray-900 tracking-tight">
+                    <h3 className="mt-2 text-lg font-medium text-gray-900 dark:text-gray-200 tracking-tight">
                       Finance
                     </h3>
-                    <p className="mt-5 text-base text-gray-500">
+                    <p className="mt-5 text-base text-gray-500 dark:text-gray-200">
                       Let me help you get prequalfied for your dream home.
                     </p>
                   </div>
                 </div>
               </div>
 
-              <div className="pt-6">
+              <div className="pt-10">
                 <div className="flow-root  rounded-lg px-6 pb-8">
                   <div className="-mt-6">
                     <div>
@@ -111,10 +111,10 @@ export default function MainContent() {
                         </svg>
                       </span>
                     </div>
-                    <h3 className="mt-2 text-lg font-medium text-gray-900 tracking-tight">
+                    <h3 className="mt-2 text-lg font-medium text-gray-900 dark:text-gray-200 tracking-tight">
                       Dream Homes
                     </h3>
-                    <p className="mt-5 text-base text-gray-500">
+                    <p className="mt-5 text-base text-gray-500 dark:text-gray-200">
                       Buying a bigger home doesn’t mean spending more money.
                     </p>
                   </div>
@@ -155,10 +155,10 @@ export default function MainContent() {
                         </svg>
                       </span>
                     </div>
-                    <h3 className="mt-2 text-lg font-medium text-gray-900 tracking-tight">
+                    <h3 className="mt-2 text-lg font-medium text-gray-900 dark:text-gray-200 tracking-tight">
                       Comps{" "}
                     </h3>
-                    <p className="mt-5 text-base text-gray-500">
+                    <p className="mt-5 text-base text-gray-500 dark:text-gray-200">
                       Up to date comparables to help you find a fair value for
                       your home.
                     </p>
@@ -208,10 +208,10 @@ export default function MainContent() {
                         </svg>
                       </span>
                     </div>
-                    <h3 className="mt-2 text-lg font-medium text-gray-900 tracking-tight">
+                    <h3 className="mt-2 text-lg font-medium text-gray-900 dark:text-gray-200 tracking-tight">
                       Sell{" "}
                     </h3>
-                    <p className="mt-5 text-base text-gray-500">
+                    <p className="mt-5 text-base text-gray-500 dark:text-gray-200">
                       Past performance is a guarantee of future success.
                     </p>
                   </div>
@@ -259,10 +259,10 @@ export default function MainContent() {
                         </svg>
                       </span>
                     </div>
-                    <h3 className="mt-2 text-lg font-medium text-gray-900 tracking-tight">
+                    <h3 className="mt-2 text-lg font-medium text-gray-900 dark:text-gray-200 tracking-tight">
                       Buy
                     </h3>
-                    <p className="mt-5 text-base text-gray-500">
+                    <p className="mt-5 text-base text-gray-500 dark:text-gray-200">
                       Ac tincidunt sapien vehicula erat auctor pellentesque
                       rhoncus.
                     </p>
@@ -300,10 +300,10 @@ export default function MainContent() {
                         </svg>
                       </span>
                     </div>
-                    <h3 className="mt-2 text-lg font-medium text-gray-900 tracking-tight">
+                    <h3 className="mt-2 text-lg font-medium text-gray-900 dark:text-gray-200 tracking-tight">
                       Advice
                     </h3>
-                    <p className="mt-5 text-base text-gray-500">
+                    <p className="mt-5 text-base text-gray-500 dark:text-gray-200">
                       Ac tincidunt sapien vehicula erat auctor pellentesque
                       rhoncus.
                     </p>
