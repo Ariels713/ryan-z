@@ -38,15 +38,16 @@ export default function Card({ recentSales }) {
                   class="flex flex-col rounded-lg shadow-lg overflow-hidden"
                 >
                   <div class="flex-shrink-0">
-                    <Link href={url}>
+                    <a href={url} target="_blank">
                       <img
                         class="h-96 w-full object-cover"
                         src={cardImage.url}
                         alt={title}
                       />
-                    </Link>
+                    </a>
                   </div>
-                  <Link href={url}>
+
+                  <a href={url} target="_blank">
                     <div class="flex-1 bg-white p-6 flex flex-col justify-between">
                       <div class="flex-1">
                         <p class="text-sm font-medium text-green-600">
@@ -81,7 +82,7 @@ export default function Card({ recentSales }) {
                         </div>
                       </div>
                     </div>
-                  </Link>
+                  </a>
                 </div>
               );
             })}
