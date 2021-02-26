@@ -7,7 +7,7 @@ export default function Nav() {
 
   return (
     <div
-      class={`px-4 py-5 mx-auto sm:max-w-xl md:max-w-full 2xl:max-w-full md:px-24 xl:px-72 dark:bg-gray-900 duration-500 ${
+      class={`px-4 py-5 mx-auto sm:max-w-full 2xl:max-w-full lg:px-24 2xl:px-60 dark:bg-gray-900 duration-500 ${
         isMenuOpen && "pb-60"
       }`}
     >
