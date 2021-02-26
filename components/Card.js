@@ -33,7 +33,10 @@ export default function Card({ recentSales }) {
                 url,
               } = item;
               return (
-                <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+                <div
+                  key={id}
+                  class="flex flex-col rounded-lg shadow-lg overflow-hidden"
+                >
                   <div class="flex-shrink-0">
                     <img
                       class="h-96 w-full object-cover"
@@ -70,7 +73,7 @@ export default function Card({ recentSales }) {
                           </a>
                         </p>
                         <div class="flex space-x-1 text-sm text-gray-500">
-                          <time datetime="2020-03-16">{date}</time>
+                          <time dateTime="2020-03-16">{date}</time>
                         </div>
                       </div>
                     </div>
