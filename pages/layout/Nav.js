@@ -62,7 +62,7 @@ export default function Nav() {
           </li>
 
           <li>
-            <Link href="/about">
+            <Link href="/testimonial">
               <a
                 href="/"
                 aria-label="Sign in"
@@ -179,6 +179,18 @@ export default function Nav() {
                           className="font-medium tracking-wide text-gray-700 dark:text-gray-200 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                           About
+                        </a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/testimonial">
+                        <a
+                          href="/"
+                          aria-label="Sign in"
+                          title="Sign in"
+                          className="font-medium tracking-wide text-gray-700 dark:text-gray-200 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        >
+                          Testimonials
                         </a>
                       </Link>
                     </li>
