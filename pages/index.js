@@ -5,6 +5,17 @@ import Testimonials from "../components/Testimonials";
 import Toggle from "../components/theme/Toggle";
 
 export default function Home() {
+  console.log("Site design by");
+  console.log("%cAriel Rodriguez", "color:cornflowerblue");
+
+  console.log(
+    " ██████╗ ███████╗██╗   ██╗    ██████╗  █████╗ ██████╗  █████╗\n",
+    "██╔══██╗██╔════╝██║   ██║    ██╔══██╗██╔══██╗██╔══██╗██╔══██╗\n",
+    "██║  ██║█████╗  ██║   ██║    ██████╔╝███████║██████╔╝███████║\n",
+    "██║  ██║██╔══╝  ╚██╗ ██╔╝    ██╔═══╝ ██╔══██║██╔═══╝ ██╔══██║\n",
+    "██████╔╝███████╗ ╚████╔╝     ██║     ██║  ██║██║     ██║  ██║\n",
+    "╚═════╝ ╚══════╝  ╚═══╝      ╚═╝     ╚═╝  ╚═╝╚═╝     ╚═╝  ╚═╝\n"
+  );
   return (
     <div className="bg-white dark:bg-gray-800 duration-500">
       <Head>
