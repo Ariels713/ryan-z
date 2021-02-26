@@ -6,7 +6,6 @@ import Toggle from "../components/theme/Toggle";
 
 export default function Home() {
   console.log("Site design by");
-  console.log("%cAriel Rodriguez", "color:cornflowerblue");
 
   console.log(
     " ██████╗ ███████╗██╗   ██╗    ██████╗  █████╗ ██████╗  █████╗\n",
@@ -16,6 +15,7 @@ export default function Home() {
     "██████╔╝███████╗ ╚████╔╝     ██║     ██║  ██║██║     ██║  ██║\n",
     "╚═════╝ ╚══════╝  ╚═══╝      ╚═╝     ╚═╝  ╚═╝╚═╝     ╚═╝  ╚═╝\n"
   );
+  console.log("%chttps://arielrodriguez.me/", "color:cornflowerblue");
   return (
     <div className="bg-white dark:bg-gray-800 duration-500">
       <Head>
