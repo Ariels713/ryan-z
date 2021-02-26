@@ -36,7 +36,7 @@ export default function index() {
                 </p>
               </div>
               <div className="w-full max-w-xl xl:px-8 xl:w-5/12">
-                <div className="bg-white rounded shadow-2xl p-7 sm:p-10">
+                <div className="bg-white dark:bg-gray-800 duration-500 dark:text-gray-200 rounded shadow-2xl p-7 sm:p-10">
                   <h3 className="mb-4 text-xl font-semibold sm:text-center sm:mb-6 sm:text-2xl">
                     Let's connect
                   </h3>
@@ -47,7 +47,7 @@ export default function index() {
                     <div className="mb-1 sm:mb-2">
                       <label
                         htmlFor="name"
-                        className="inline-block mb-1 font-medium"
+                        className="inline-block mb-1 font-medium dark:text-gray-300"
                       >
                         Name
                       </label>
@@ -65,7 +65,7 @@ export default function index() {
                     <div className="mb-1 sm:mb-2">
                       <label
                         htmlFor="userEmail"
-                        className="inline-block mb-1 font-medium"
+                        className="inline-block mb-1 font-medium dark:text-gray-300"
                       >
                         Email
                       </label>
@@ -83,7 +83,7 @@ export default function index() {
                     <div className="mb-1 sm:mb-2">
                       <label
                         htmlFor="message"
-                        className="block text-sm font-medium text-gray-700 dark:text-gray-500 sm:mt-px sm:pt-2"
+                        className="inline-block mb-1 font-medium dark:text-gray-300"
                       >
                         Let's chat
                       </label>

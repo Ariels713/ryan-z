@@ -3,14 +3,14 @@ import React from "react";
 export default function index() {
   return (
     <>
-      <div className="bg-white overflow-hidden">
+      <div className="bg-white overflow-hidden dark:bg-gray-800 duration-500">
         <div className="relative max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
           <div className="hidden lg:block bg-gray-50 absolute top-0 bottom-0 left-3/4 w-screen"></div>
           <div className="mx-auto text-base max-w-prose lg:max-w-none">
             {/* <h2 className="text-base text-indigo-600 font-semibold tracking-wide uppercase">
               Hi, I'm
             </h2> */}
-            <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+            <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 dark:text-gray-200 sm:text-4xl">
               Ryan Zarb
             </h3>
           </div>
@@ -65,10 +65,10 @@ export default function index() {
             </div>
             <div className="mt-8 lg:mt-0">
               <div className="text-base max-w-prose mx-auto lg:max-w-none">
-                <p className="font-semibold text-lg my-4 text-gray-900 ">
+                <p className="font-semibold text-lg my-4 text-gray-900 dark:text-gray-200 ">
                   Finding Your Next Home
                 </p>
-                <p className="text-lg text-gray-500">
+                <p className="text-lg text-gray-500 dark:text-gray-400">
                   You need someone who knows this area inside and out! I can
                   work with you to find the right home at the right price for
                   you, including all the neighborhood amenities that matter -
@@ -77,10 +77,10 @@ export default function index() {
                 </p>
               </div>
               <div className="text-base max-w-prose mx-auto lg:max-w-none">
-                <p className="font-semibold text-lg my-4 text-gray-900 ">
+                <p className="font-semibold text-lg my-4 text-gray-900 dark:text-gray-200 ">
                   Selling Your Home
                 </p>
-                <p className="text-lg text-gray-500">
+                <p className="text-lg text-gray-500 dark:text-gray-400">
                   When it's time to move, you need someone who will advertise
                   your home, show to prospective buyers, negotiate the purchase
                   contract, arrange financing, oversee the inspections, handle
@@ -89,10 +89,10 @@ export default function index() {
                 </p>
               </div>
               <div className="text-base max-w-prose mx-auto lg:max-w-none">
-                <p className="font-semibold text-lg my-4 text-gray-900 ">
+                <p className="font-semibold text-lg my-4 text-gray-900 dark:text-gray-200 ">
                   Home Buying/Selling Consultations
                 </p>
-                <p className="text-lg text-gray-500">
+                <p className="text-lg text-gray-500 dark:text-gray-400">
                   Oftentimes buyers don't visualize living in your home the way
                   you do. I can make your home attractive to its ideal audience
                   - which can help you get top dollar. Things like staging the
@@ -102,11 +102,11 @@ export default function index() {
                 </p>
               </div>
               <div className="mt-5 prose prose-indigo text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
-                <p className="font-semibold text-xl my-4 text-gray-900 ">
+                <p className="font-semibold text-xl my-4 text-gray-900 dark:text-gray-300 ">
                   Here are some of the ways I can help.
                 </p>
 
-                <ul className="text-lg">
+                <ul className="text-lg text-gray-500 dark:text-gray-400">
                   <li>
                     Ryan Zarb’s passion for real estate and home design go as
                     far back as he can remember. As a child at a restaurant—

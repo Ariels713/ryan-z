@@ -6,7 +6,7 @@ export default function Nav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div class="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full 2xl:max-w-full md:px-24 xl:px-72 dark:bg-gray-900 ">
+    <div class="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full 2xl:max-w-full md:px-24 xl:px-72 dark:bg-gray-900 duration-500 ">
       <div class="relative flex grid items-center grid-cols-2 lg:grid-cols-3">
         <ul class="flex items-center hidden space-x-8 lg:flex">
           <li>
