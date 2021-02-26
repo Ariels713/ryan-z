@@ -1,9 +1,15 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import kwesforms from "kwesforms";
 
 export default function index() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+
+  useEffect(() => {
+    kwesforms.init();
+  }, []);
+
   return (
     <>
       <div className="relative">
@@ -21,8 +27,12 @@ export default function index() {
                   Selling or Buying{" "}
                   <span className="text-teal-accent-400">I can help.</span>
                 </h2>
-                <p className="max-w-xl mb-4 text-base text-gray-400 md:text-lg">
-                  Let's Connect
+                <p className="max-w-xl mb-4 text-base text-gray-200 md:text-lg">
+                  If you prefer to call, I'm feel free to give me a call.
+                </p>
+
+                <p className="max-w-xl mb-4 text-base text-gray-200 md:text-lg font-semibold ">
+                  631-553-1413
                 </p>
               </div>
               <div className="w-full max-w-xl xl:px-8 xl:w-5/12">
@@ -30,7 +40,10 @@ export default function index() {
                   <h3 className="mb-4 text-xl font-semibold sm:text-center sm:mb-6 sm:text-2xl">
                     Let's connect
                   </h3>
-                  <form>
+                  <form
+                    className="kwes-form"
+                    action="https://kwes.io/api/foreign/forms/FA5HE8N98hTF3VHOP1Jy"
+                  >
                     <div className="mb-1 sm:mb-2">
                       <label
                         htmlFor="name"
@@ -40,7 +53,7 @@ export default function index() {
                       </label>
                       <input
                         placeholder="George Clooney"
-                        required
+                        rules="required"
                         type="text"
                         className="flex-grow w-full h-12 px-4 mb-2 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline"
                         id="name"
@@ -58,7 +71,7 @@ export default function index() {
                       </label>
                       <input
                         placeholder="gc@clooney.com"
-                        required
+                        rules="required"
                         type="text"
                         className="flex-grow w-full h-12 px-4 mb-2 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline"
                         id="userEmail"

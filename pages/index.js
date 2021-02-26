@@ -9,7 +9,7 @@ export default function Home() {
     <div className="bg-white dark:bg-gray-800 duration-500">
       <Head>
         <title>Ryan Zarb</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.svg" />
       </Head>
       <LandingHero />
       <MainContent />

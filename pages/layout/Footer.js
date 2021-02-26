@@ -2,23 +2,23 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer class="bg-white" aria-labelledby="footerHeading">
-      <h2 id="footerHeading" class="sr-only">
+    <footer className="bg-white" aria-labelledby="footerHeading">
+      <h2 id="footerHeading" className="sr-only">
         Footer
       </h2>
-      <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-        {/* <div class="border-t border-gray-200 pt-8 lg:flex lg:items-center lg:justify-between xl:mt-0">
+      <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+        {/* <div className="border-t border-gray-200 pt-8 lg:flex lg:items-center lg:justify-between xl:mt-0">
           <div>
-            <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">
+            <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
               Subscribe to our newsletter
             </h3>
-            <p class="mt-2 text-base text-gray-500">
+            <p className="mt-2 text-base text-gray-500">
               The latests listings, tips for buying/selling, sent to your inbox
               monthly.
             </p>
           </div>
-          <form class="mt-4 sm:flex sm:max-w-md lg:mt-0">
-            <label for="emailAddress" class="sr-only">
+          <form className="mt-4 sm:flex sm:max-w-md lg:mt-0">
+            <label for="emailAddress" className="sr-only">
               Email address
             </label>
             <input
@@ -27,25 +27,29 @@ export default function Footer() {
               id="emailAddress"
               autocomplete="email"
               required
-              class="appearance-none min-w-0 w-full bg-white border border-gray-300 py-2 px-4 text-base rounded-md text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:placeholder-gray-400 sm:max-w-xs"
+              className="appearance-none min-w-0 w-full bg-white border border-gray-300 py-2 px-4 text-base rounded-md text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:placeholder-gray-400 sm:max-w-xs"
               placeholder="Enter your email"
             />
-            <div class="mt-3 rounded-md sm:mt-0 sm:ml-3 sm:flex-shrink-0">
+            <div className="mt-3 rounded-md sm:mt-0 sm:ml-3 sm:flex-shrink-0">
               <button
                 type="submit"
-                class="w-full bg-yellow-400 border border-transparent rounded-md py-2 px-4 flex items-center justify-center text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                className="w-full bg-yellow-400 border border-transparent rounded-md py-2 px-4 flex items-center justify-center text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
               >
                 Subscribe
               </button>
             </div>
           </form>
         </div> */}
-        <div class="mt-8 border-t border-gray-200 pt-8 md:flex md:items-center md:justify-between">
-          <div class="flex space-x-6 md:order-2">
-            <a href="#" class="text-gray-400 hover:text-gray-500">
-              <span class="sr-only">Facebook</span>
+        <div className="mt-8 border-t border-gray-200 pt-8 md:flex md:items-center md:justify-between">
+          <div className="flex space-x-6 md:order-2">
+            <a
+              href="https://m.facebook.com/RyanZRealty/?ref=bookmarks"
+              target="_blank"
+              className="text-gray-400 hover:text-gray-500"
+            >
+              <span className="sr-only">Facebook</span>
               <svg
-                class="h-6 w-6"
+                className="h-6 w-6"
                 fill="currentColor"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
@@ -58,10 +62,14 @@ export default function Footer() {
               </svg>
             </a>
 
-            <a href="#" class="text-gray-400 hover:text-gray-500">
-              <span class="sr-only">Instagram</span>
+            <a
+              href="https://www.instagram.com/ryan_zarb/?hl=en"
+              target="_blank"
+              className="text-gray-400 hover:text-gray-500"
+            >
+              <span className="sr-only">Instagram</span>
               <svg
-                class="h-6 w-6"
+                className="h-6 w-6"
                 fill="currentColor"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
@@ -73,20 +81,8 @@ export default function Footer() {
                 />
               </svg>
             </a>
-
-            <a href="#" class="text-gray-400 hover:text-gray-500">
-              <span class="sr-only">Twitter</span>
-              <svg
-                class="h-6 w-6"
-                fill="currentColor"
-                viewBox="0 0 24 24"
-                aria-hidden="true"
-              >
-                <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
-              </svg>
-            </a>
           </div>
-          <p class="mt-8 text-base text-gray-400 md:mt-0 md:order-1">
+          <p className="mt-8 text-base text-gray-400 md:mt-0 md:order-1">
             Ryan Zarb Realty Inc.
           </p>
         </div>
