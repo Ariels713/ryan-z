@@ -1,6 +1,15 @@
 import React from "react";
 
 export default function Card({ recentSales }) {
+  function sortedData(data) {
+    let userdata = [];
+    data.forEach((item) => {
+      userdata.unshift(item);
+    });
+    return userdata;
+  }
+  const sales = sortedData(recentSales);
+
   return (
     <>
       <div className="relative bg-gray-50 dark:bg-gray-800 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8 duration-500">
@@ -18,7 +27,7 @@ export default function Card({ recentSales }) {
             </p>
           </div>
           <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
-            {recentSales.map((item) => {
+            {sales.map((item) => {
               const {
                 baths,
                 beds,
