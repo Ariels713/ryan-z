@@ -8,7 +8,7 @@ export default function Nav() {
   return (
     <div
       className={`px-4 py-5 mx-auto sm:max-w-full 2xl:max-w-full lg:px-24 2xl:px-60 dark:bg-gray-900 duration-500 ${
-        isMenuOpen && "pb-60"
+        isMenuOpen && "pb-72"
       }`}
     >
       <div className="relative flex grid items-center grid-cols-2 lg:grid-cols-3">
