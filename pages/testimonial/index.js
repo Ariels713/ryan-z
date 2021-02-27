@@ -33,6 +33,15 @@ export async function getStaticProps() {
 }
 
 export default function index({ testimonials }) {
+  function sortedData(data) {
+    let userdata = [];
+    data.forEach((item) => {
+      userdata.unshift(item);
+    });
+    return userdata;
+  }
+  const testimonial = sortedData(testimonials);
+
   return (
     <>
       <div className="text-center pt-16 bg-white dark:bg-gray-800">
@@ -44,7 +53,7 @@ export default function index({ testimonials }) {
           lorem ipsum lorem ipsum lorem ipsum lorem ipsum
         </p>
       </div>
-      {testimonials.map((item) => {
+      {testimonial.map((item) => {
         const { id, buyerName, buyerTitle, description } = item;
         return (
           <div
