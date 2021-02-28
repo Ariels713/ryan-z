@@ -24,7 +24,7 @@ export default function Testimonials() {
                 <p className="relative text-gray-900 dark:text-gray-200">
                   Working with Ryan was a fantasic expierence. He was patient,
                   knowlegeable, and found us exactly what we were looking for.
-                  We coulnd't be happier with our purchase!
+                  We couldn't be happier with our purchase!
                 </p>
               </div>
               <footer className="mt-8">
@@ -52,19 +52,20 @@ export default function Testimonials() {
                   <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
                 </svg>
                 <p className="relative text-gray-900 dark:text-gray-200">
-                  Working with Ryan was a fantasic expierence. He was patient,
-                  knowlegeable, and found us exactly what we were looking for.
-                  We coulnd't be happier with our purchase!
+                  Ryan is a true professional. He was always available and ready
+                  to assist in any way possible. He was patient yet motivated to
+                  move things forward. I would highly recommend him to anyone
+                  looking for a agent in the Hoboken area.
                 </p>
               </div>
               <footer className="mt-8">
                 <div className="flex items-start">
                   <div className="">
                     <div className="text-base font-medium text-gray-600 dark:text-gray-300">
-                      Ariel Rodriguez
+                      Ian Shulman
                     </div>
                     <div className="text-base font-medium text-yellow-300">
-                      Seller
+                      Buyer
                     </div>
                   </div>
                 </div>

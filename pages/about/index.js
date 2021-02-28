@@ -36,11 +36,11 @@ export default function index() {
                   Finding Your Next Home
                 </p>
                 <p className="text-lg text-gray-500 dark:text-gray-400">
-                  You need someone who knows this area inside and out! I can
-                  work with you to find the right home at the right price for
-                  you, including all the neighborhood amenities that matter -
-                  not to mention the essential criteria you have for your ideal
-                  home.
+                  I am not here to “sell” you a home, I am simply the conduit to
+                  helping you find the home that works best for your lifestyle.
+                  I want to make sure you LOVE where you live! As a master
+                  communicator with an “honesty is the best policy” approach to
+                  life in general, I will never steer you wrong.
                 </p>
               </div>
               <div className="text-base max-w-prose mx-auto lg:max-w-none">
@@ -48,52 +48,54 @@ export default function index() {
                   Selling Your Home
                 </p>
                 <p className="text-lg text-gray-500 dark:text-gray-400">
-                  When it's time to move, you need someone who will advertise
-                  your home, show to prospective buyers, negotiate the purchase
+                  If it's time to move, then you need someone who will advertise
+                  your home to prospective buyers, negotiate the purchase
                   contract, arrange financing, oversee the inspections, handle
-                  all necessary paperwork and supervise the closing. I can take
-                  care of everything you need, from start to close.
+                  all necessary paperwork— ultimately leading you to the closing
+                  table. I will take care of everything you need, making sure
+                  the process is as stress free as possible from start to close.
                 </p>
               </div>
               <div className="text-base max-w-prose mx-auto lg:max-w-none">
                 <p className="font-semibold text-lg my-4 text-gray-900 dark:text-gray-200 ">
-                  Home Buying/Selling Consultations
+                  Consult on Home Selling Tactics
                 </p>
                 <p className="text-lg text-gray-500 dark:text-gray-400">
                   Oftentimes buyers don't visualize living in your home the way
-                  you do. I can make your home attractive to its ideal audience
-                  - which can help you get top dollar. Things like staging the
-                  home, making repairs or minor improvements, or even simply
-                  painting the walls can be the difference between a home
-                  resting on the market and one that's sold fast..
+                  you do. I can help make your home attractive to its ideal
+                  audience— which can help you get top dollar. Things like
+                  staging the home, de-personalizing— making minor
+                  repairs/updates, even as simple as painting the walls or trim
+                  can be the difference between a home sitting on the market and
+                  one that's sells fast.
                 </p>
               </div>
               <div className="mt-5 prose prose-indigo text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
                 <p className="font-semibold text-xl my-4 text-gray-900 dark:text-gray-300 ">
-                  Here are some of the ways I can help.
+                  Who Is Ryan?
                 </p>
 
                 <ul className="text-lg text-gray-500 dark:text-gray-400">
                   <li>
-                    Ryan Zarb’s passion for real estate and home design go as
-                    far back as he can remember. As a child at a restaurant—
-                    given activity sheets to color, he would flip them over and
-                    draw homes of different styles.
+                    My passion for real estate and home design go as far back as
+                    he can remember. As a child at a restaurant— given activity
+                    sheets to color, I was always flipping them over to draw
+                    homes and interiors.
                   </li>
                   <li>
-                    After a successful career in fashion, Ryan was ready to
-                    pursue his longed desire for a career in real estate.As a
-                    native New Yorker, moving to NJ had never really been
-                    something Ryan had considered. However, having taken his
-                    course in Hoboken he began to fall in love with Hudson
-                    county and chose to relocate after living in Manhattan for 8
-                    years!
+                    After a successful career in fashion, I was ready to pursue
+                    my longed desire for a career in real estate. As a native
+                    New Yorker from northeastern Long Island, moving to New
+                    Jersey had never really been something I considered.
+                    However, after taking my real estate course in Hoboken— I
+                    began to fall in love with New Jersey and chose to relocate
+                    across the river after living in Manhattan for 8 years!
                   </li>
                   <li>
-                    Ryan's passion, eye for detail and vision for great
-                    potential in homes, makes him a dependable and resourceful
-                    agent for his clients— committed to achieving their dreams
-                    within their means.
+                    My eye for detail and vision for great potential in any
+                    home, makes me a dependable and resourceful agent for my
+                    clients— committed to achieving their dreams within their
+                    means.
                   </li>
                 </ul>
               </div>

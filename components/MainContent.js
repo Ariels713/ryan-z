@@ -9,9 +9,8 @@ export default function MainContent() {
             Your Dream Home Awaits{" "}
           </p>
           <p className="mt-5 max-w-prose mx-auto text-xl text-gray-500 dark:text-gray-200">
-            As a realtor, I aim to find the right home at the right price for
-            you. I have lived in North Bergen for over five years and plan on
-            staying for much longer. Let's find your dream home together.
+            As a realtor, my job is to make sure you love where you life. Let’s
+            find your dream home together! Live, laugh— rent, buy & sell!
           </p>
           <div className="mt-12">
             <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">

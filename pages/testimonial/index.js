@@ -48,10 +48,6 @@ export default function index({ testimonials }) {
         <h2 className="text-3xl tracking-tight font-extrabold text-gray-800 dark:text-gray-200 sm:text-4xl ">
           Client Testimonials
         </h2>
-
-        <p className="mt-3 max-w-2xl mx-auto text-xl text-gray-500 dark:text-gray-300 sm:mt-4">
-          lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-        </p>
       </div>
       {testimonial.map((item) => {
         const { id, buyerName, buyerTitle, description } = item;

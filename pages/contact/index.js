@@ -28,7 +28,7 @@ export default function index() {
                   <span className="text-teal-accent-400">I can help.</span>
                 </h2>
                 <p className="max-w-xl mb-4 text-base text-gray-200 md:text-lg">
-                  If you prefer to call, feel free to give me a call.
+                  Feel free to text or call at your convenience
                 </p>
 
                 <p className="max-w-xl mb-4 text-base text-gray-200 md:text-lg font-semibold ">
