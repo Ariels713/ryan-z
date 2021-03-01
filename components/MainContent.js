@@ -217,12 +217,11 @@ export default function MainContent() {
                 </div>
               </div>
 
-              <div className="pt-6">
+              {/* <div className="pt-6">
                 <div className="flow-root  rounded-lg px-6 pb-8">
                   <div className="-mt-6">
                     <div>
                       <span className="inline-flex items-center justify-center p-3 ">
-                        {/* <!-- Heroicon name: outline/server --> */}
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="48"
@@ -267,48 +266,7 @@ export default function MainContent() {
                     </p>
                   </div>
                 </div>
-              </div>
-
-              <div className="pt-6">
-                <div className="flow-root  rounded-lg px-6 pb-8">
-                  <div className="-mt-6">
-                    <div>
-                      <span className="inline-flex items-center justify-center p-3 ">
-                        {/* <!-- Heroicon name: outline/cloud-upload --> */}
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="64"
-                          height="64"
-                          viewBox="0 0 64 64"
-                        >
-                          <title>comment-add</title>
-                          <g>
-                            <path
-                              d="M58.52 9.31h-45.22a3.99 3.99 0 0 0-3.99 3.99v46.55a1.33 1.33 0 0 0 2.18 1.02l15.59-12.99h31.44a3.99 3.99 0 0 0 3.99-3.99v-30.59a3.99 3.99 0 0 0-3.99-3.99z"
-                              fill="#bfdee0"
-                            ></path>
-                            <path
-                              d="M1.33 14.63a13.3 13.3 0 1 0 13.3-13.3 13.3 13.3 0 0 0-13.3 13.3z"
-                              fill="#72c1c4"
-                            ></path>
-                            <path
-                              d="M15.96 9.31v3.99h3.99a1.33 1.33 0 0 1 0 2.66h-3.99v3.99a1.33 1.33 0 0 1-2.66 0v-3.99h-3.99a1.33 1.33 0 0 1 0-2.66h3.99v-3.99a1.33 1.33 0 0 1 2.66 0z"
-                              fill="#fff"
-                            ></path>
-                          </g>
-                        </svg>
-                      </span>
-                    </div>
-                    <h3 className="mt-2 text-lg font-medium text-gray-900 dark:text-gray-200 tracking-tight">
-                      Advice
-                    </h3>
-                    <p className="mt-5 text-base text-gray-500 dark:text-gray-200">
-                      Ac tincidunt sapien vehicula erat auctor pellentesque
-                      rhoncus.
-                    </p>
-                  </div>
-                </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
